@@ -1,6 +1,8 @@
 # Election Project 
+# Data Source 
+-- Raws ANES election data obtained from electionstudies.org
 # Process
- --It is able to filter through the election data to determine the most successful 3rd parties and the most successful 3rd party presidential candidates. 
+ --Filters through election data to determine the most successful 3rd parties and the most successful 3rd party presidential candidates. 
  --The start.jpynb analyzes all major parties in Presidential elections during that time period by adding the data to a dataframe and filtering the total number of votes for each party. 
  --The 3rd_party.jpynb drills down the data by filtering out major parties and columns where democrat or republican candidates were showing up as candidates of 3rd Parties (ie farmer democrats in Minnesota). 
  --3rd_party assesses what 3rd party platforms and what 3rd party candidates receieved the most total number of votes during that time period.  
